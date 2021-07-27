@@ -25,8 +25,8 @@
 			<td>{{ mascota.fecha_rescate }}</td>
 			<td>{{ mascota.persona.nombre }} {{ mascota.persona.apellido_pa }} {{ mascota.persona.apellido_ma }}</td>
 			<td>
-				<a class="btn btn-primary" href="{% url 'editar' mascota.id %}"> Editar</a>
-				<a class="btn btn-danger" href="{% url 'eliminar' mascota.id %}"> Eliminar</a>
+				<a class="btn btn-primary" href="{% url 'editar_clase' mascota.id %}"> Editar</a>
+				<a class="btn btn-danger" href="{% url 'eliminar_clase' mascota.id %}"> Eliminar</a>
 			</td>
 		</tr>
 		{% endfor %}
